@@ -82,3 +82,68 @@ body {
 .home-main .product-box {
   margin-top: 50px;
 }
+.home-main .product-box .nav-tabs {
+  justify-content: center;
+  border-bottom: 0 none;
+}
+.home-main .product-box .nav-tabs .nav-item {
+  border: #666 1px solid;
+  color: #666;
+  font-size: 12px;
+  margin-right: 5px;
+  padding: 8px 30px;
+}
+.home-main .product-box .nav-tabs .nav-item:hover {
+  text-decoration: none;
+}
+.home-main .product-box .nav-tabs .nav-item.active {
+  color: #16bcb4;
+  border-color: #16bcb4;
+}
+.home-main .product-box .tab-content {
+  margin-top: 20px;
+}
+.home-main .product-box .tab-content .card {
+  border: 0 none;
+  border-radius: 0;
+  border-bottom: 1px solid #666;
+}
+.home-main .about-box {
+  margin-top: 50px;
+}
+.home-main .about-box img {
+  width: 100%;
+}
+.home-main .about-box .tit {
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.home-main .about-box .tit::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 100px;
+  height: 5px;
+  background-color: #16bcb4;
+}
+.home-main .about-box .cont {
+  margin-top: 30px;
+}
+.home-main .about-box .mare {
+  border: 1px solid #666;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 15px;
+  position: relative;
+  background-color: #fff;
+  text-decoration: none;
+  transition: .3s;
+}
+.home-main .about-box .mare:hover {
+  background-color: #16bcb4;
+  border-color: #16bcb4;
+  color: #fff;
+}
