@@ -1,0 +1,84 @@
+body {
+  font-family: "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Roboto, Arial, sans-serif;
+}
+.header .logo {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  background: url("../image/logo.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.header .logo h2 {
+  font-size: 0;
+  line-height: 0;
+  text-indent: -999999px;
+  margin-bottom: 0;
+  display: none;
+}
+.header .nav li {
+  list-style: none;
+}
+.home-banner .carousel-indicators li {
+  width: 30px;
+  height: 8px;
+}
+.home-banner .carousel-indicators li.active {
+  background-color: #16bcb4;
+}
+.home-banner .carousel-control-prev .carousel-control-prev-icon,
+.home-banner .carousel-control-next .carousel-control-prev-icon,
+.home-banner .carousel-control-prev .carousel-control-next-icon,
+.home-banner .carousel-control-next .carousel-control-next-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-size: 50%;
+  background-image: none;
+  background-position: center center;
+  position: relative;
+}
+.home-banner .carousel-control-prev .carousel-control-prev-icon path,
+.home-banner .carousel-control-next .carousel-control-prev-icon path,
+.home-banner .carousel-control-prev .carousel-control-next-icon path,
+.home-banner .carousel-control-next .carousel-control-next-icon path {
+  fill: #fff;
+}
+.home-banner .carousel-control-prev .carousel-control-prev-icon .octicon,
+.home-banner .carousel-control-next .carousel-control-prev-icon .octicon,
+.home-banner .carousel-control-prev .carousel-control-next-icon .octicon,
+.home-banner .carousel-control-next .carousel-control-next-icon .octicon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -8px;
+  margin-top: -16px;
+}
+.home-main .main {
+  padding: 50px 0px;
+}
+.home-main .title {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.home-main .news-box .tit {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+.home-main .news-box .browse {
+  color: #9A9A99;
+}
+.home-main .news-box .browse path {
+  fill: #9A9A99;
+}
+.home-main .news-box .cont {
+  color: #666;
+  font-size: 14px;
+  line-height: 30px;
+}
+.home-main .product-box {
+  margin-top: 50px;
+}
