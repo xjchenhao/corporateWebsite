@@ -15,8 +15,8 @@ body {
   margin-bottom: 0;
   display: none;
 }
-.header .nav li {
-  list-style: none;
+.header .navbar-toggler-icon path {
+  fill: #333;
 }
 .home-banner .carousel-indicators li {
   width: 30px;
@@ -108,8 +108,11 @@ body {
   border-radius: 0;
   border-bottom: 1px solid #666;
 }
+.home-main .product-box .tab-content .card:hover {
+  border-color: #16bcb4;
+}
 .home-main .about-box {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .home-main .about-box img {
   width: 100%;

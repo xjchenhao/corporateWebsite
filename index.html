@@ -17,25 +17,70 @@
 <body id="#home">
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="col align-self-start">
+            <nav class="navbar navbar-expand-md">
+                <div class="navbar-brand" href="#">
                     <a class="logo" href="/">
                         <h2>生物制药</h2>
                     </a>
                 </div>
-                <div class="col col-sm-7 align-self-end">
-                    <nav class="nav">
-                        <ul class="row">
-                            <li class="col">网站首页</li>
-                            <li class="col">关于我们</li>
-                            <li class="col">产品信息</li>
-                            <li class="col">创新研发</li>
-                            <li class="col">资讯中心</li>
-                            <li class="col">联系我们</li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 12 16" version="1.1" width="24"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path>
+                        </svg>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">首页<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                关于我们
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                                <a class="dropdown-item" href="#">企业简介</a>
+                                <a class="dropdown-item" href="#">董事长致辞</a>
+                                <a class="dropdown-item" href="#">企业历程</a>
+                                <a class="dropdown-item" href="#">联系我们</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProduct" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                产品信息
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownProduct">
+                                <a class="dropdown-item" href="#">全部</a>
+                                <a class="dropdown-item" href="#">制剂</a>
+                                <a class="dropdown-item" href="#">免疫球蛋白</a>
+                                <a class="dropdown-item" href="#">中间体</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProduct" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                创新研发
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownProduct">
+                                <a class="dropdown-item" href="#">研发实力</a>
+                                <a class="dropdown-item" href="#">生产基地</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">资讯中心</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">联系我们</a>
+                        </li>
+                    </ul>
+            </nav>
+        </div>
+        </div>
         </div>
     </header>
     <main class="home-main">
@@ -124,41 +169,41 @@
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                             <div class="card-deck">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
                                     <div class="card-body">
-                                        <p class="card-text">抗变态反应用药</p>
+                                        <p class="card-text">抗变态反应用药1</p>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
                                     <div class="card-body">
-                                        <p class="card-text">抗变态反应用药</p>
+                                        <p class="card-text">抗变态反应用药2</p>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
                                     <div class="card-body">
-                                        <p class="card-text">抗变态反应用药</p>
+                                        <p class="card-text">抗变态反应用药3</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <div class="card-deck">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <p class="card-text">抗变态反应用药</p>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <p class="card-text">抗变态反应用药</p>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <p class="card-text">抗变态反应用药</p>
@@ -168,19 +213,23 @@
                         </div>
                         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                             <div class="card-deck">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
+                                    <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">抗变态反应用药</p>
+                                    </div>
+                                    <figcaption class="overlay-panel overlay-background overlay-fade overlay-icon"
+                                        met-imgmask="">
+                                        <a href="https://show.metinfo.cn/m/mui259/300/product/showproduct.php?id=6"></a>
+                                    </figcaption>
+                                </div>
+                                <div class="card">
                                     <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <p class="card-text">抗变态反应用药</p>
                                     </div>
                                 </div>
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <p class="card-text">抗变态反应用药</p>
-                                    </div>
-                                </div>
-                                <div class="card" style="width: 18rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="./image/product-image1.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <p class="card-text">抗变态反应用药</p>
@@ -193,7 +242,7 @@
                 <div class="about-box">
                     <div class="container">
                         <div class="row">
-                            <div class="col col-sm-5">
+                            <div class="col col-sm-5 col-12">
                                 <img src="./image/about-image.jpg" alt="Generic placeholder image">
                             </div>
                             <div class="col col-sm-7">
